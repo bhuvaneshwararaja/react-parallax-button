@@ -12,7 +12,7 @@ Demo: https://react-prallex-button-dev.surge.sh/
 Install module:
 
 ```js
- npm i -s react-parallax-button
+ npm i reactjs-parallax-button
 ```
 Import it in your React project:
 ```js
