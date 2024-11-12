@@ -62,15 +62,17 @@ export default class ParallaxButton extends Component {
 
   render() {
     return (
-      <div
-        {...this.filterProps(this.props)}
-        ref={ref => this.div = ref}
-        onMouseMove={this.onMouseMove}
-        onMouseLeave={this.onMouseLeave}
-        onMouseDown={this.onMouseDown}
-        onMouseUp={this.onMouseUp}
-        className={css(this.styles.button)}
-      />
+      <div className={css(this.styles.parallexMargin)}>
+        <div
+            {...this.filterProps(this.props)}
+            ref={ref => this.div = ref}
+            onMouseMove={this.onMouseMove}
+            onMouseLeave={this.onMouseLeave}
+            onMouseDown={this.onMouseDown}
+            onMouseUp={this.onMouseUp}
+            className={css(this.styles.button)}
+        />
+      </div>
     )
   }
 
@@ -103,6 +105,9 @@ export default class ParallaxButton extends Component {
           willChange: 'transform',
           transform: 'translateY(var(--ty, 0))rotateX(var(--rx, 0))rotateY(var(--ry, 0))',
         }
+      },
+      parallexMargin:{
+        "margin": "2px"
       }
     });
   }

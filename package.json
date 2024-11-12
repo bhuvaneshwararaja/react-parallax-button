@@ -1,5 +1,5 @@
 {
-  "name": "react-parallax-button",
+  "name": "reactjs-parallax-button",
   "version": "1.0.0",
   "description": "Bring your react buttons to next level with parallax effect",
   "main": "index.js",
@@ -8,9 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/venits/react-parallax-button.git"
+    "url": "git+https://github.com/bhuvaneshwararaja/react-parallax-button.git"
   },
   "dependencies": {
+    "@babel/preset-react": "^7.25.9",
     "aphrodite": "^2.1.0"
   },
   "peerDependencies": {
@@ -24,10 +25,10 @@
     "effect",
     "modern"
   ],
-  "author": "Venits",
+  "author": "Bhuvanesh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/venits/react-parallax-button/issues"
+    "url": "https://github.com/bhuvaneshwararaja/react-parallax-button/issues"
   },
-  "homepage": "https://github.com/venits/react-parallax-button#readme"
+  "homepage": "https://github.com/bhuvaneshwararaja/react-parallax-button#readme"
 }
